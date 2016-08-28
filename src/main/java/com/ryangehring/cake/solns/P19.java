@@ -5,13 +5,13 @@ import java.util.Stack;
 /**
  * Created by ryan on 8/28/16.
  */
-public class P17 {
+public class P19 {
 
     private Stack<Integer> s1 ;
     private Stack<Integer> s2 ;
 
 
-    public P17() {
+    public P19() {
         s1 = new Stack<>();
         s2 = new Stack<>();
     }
