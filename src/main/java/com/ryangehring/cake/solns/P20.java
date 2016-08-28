@@ -5,6 +5,7 @@ import java.util.Stack;
 /**
  * max stack
  */
+
 public class P20 extends Stack {
 
     private Stack maxes ;
@@ -14,6 +15,7 @@ public class P20 extends Stack {
     }
 
     @Override
+    @SuppressWarnings("unchecked")
     public Object push(Object item)  {
         if (maxes.empty()) {
             maxes.push(item);
